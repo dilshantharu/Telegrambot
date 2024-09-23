@@ -6,8 +6,8 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 
 // Replace with your Telegram Bot Token
-const TELEGRAM_BOT_TOKEN = process.env['TG_BOT_KEY']; // Use your actual bot token
-const OPENWEATHERMAP_API_KEY = process.env['OWM_KEY'] ;
+const TELEGRAM_BOT_TOKEN = "7932195409:AAEGMCvT5TysQvXHFF8xw-ojMZZ-5V-i7Ic "; // Use your actual bot token
+const OPENWEATHERMAP_API_KEY = "aa05e08e1e9b5ca669ade2c8b053473c" ;
 const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
 
 // Starter Command
